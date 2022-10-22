@@ -95,3 +95,57 @@ $min-contrast-ratio:   4.5 !default;
 // Customize the light and dark text colors for use in our color contrast function.
 $color-contrast-dark:      $black !default;
 $color-contrast-light:     $white !default;
+
+
+
+
+
+body {
+  background-color: #a2dfe0
+}
+
+.card-container {
+  height: 100vh;
+  background-color: #dfe6e0;
+  padding: 4%;
+  margin: auto
+}
+
+.card {
+  background-color: #c1e8ed;
+  width: 400px;
+  padding: 0px;
+  border: 1px solid #eeeeee;
+  margin-left: 2%
+}
+
+.inner-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px
+}
+
+.heart {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #beb4aa;
+  border-radius: 50%;
+  background-color: #eee
+}
+
+.btn:focus {
+  color: #fff;
+  background-color: #025ce2;
+  border-color: #0257d5;
+  box-shadow: none
+}
+
+
+
+
+
